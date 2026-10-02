@@ -106,7 +106,7 @@ documentation.txt
 
 Open the **Voice Output** page and use the saved documentation to hear the generated explanation through the browser's speech synthesis feature.
 
-   6.QR Code and Security
+   6. QR Code and Security
 
 The application generates a **SHA-256 hash** from the entered source code.
 
