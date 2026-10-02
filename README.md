@@ -3,6 +3,11 @@
 A beginner-friendly frontend web application that converts pasted source code into simple and readable documentation.
 The tool detects the programming language, analyzes basic code statistics, generates a SHA-256 integrity hash, creates a QR code containing documentation details, allows the documentation to be downloaded, and provides voice playback using the Web Speech API.
 
+
+
+<img width="1912" height="816" alt="image" src="https://github.com/user-attachments/assets/287593c9-a9f8-49df-b970-472e2c28f35f" />
+
+
  ✨ Features
 
   1. Programming Language Detection
