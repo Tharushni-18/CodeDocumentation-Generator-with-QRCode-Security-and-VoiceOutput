@@ -5,7 +5,7 @@ The tool detects the programming language, analyzes basic code statistics, gener
 
  ✨ Features
 
-    ✰ Programming Language Detection
+  1. Programming Language Detection
 
   * Java
   * Python
@@ -13,28 +13,28 @@ The tool detects the programming language, analyzes basic code statistics, gener
   * C
   * C++
 
-    ✰ Automatic Code Documentation
+  2. Automatic Code Documentation
 
   * Generates a simple overview of the source code
   * Explains individual lines of code in plain English
 
-    ✰ Code Statistics
+  3. Code Statistics
 
   * Number of lines
   * Number of characters
   * Basic code information
 
-    ✰ SHA-256 Security Hash
+  4. SHA-256 Security Hash
 
   * Generates a SHA-256 hash for the entered source code
   * Helps verify the integrity of the code
 
-    ✰ QR Code Generation
+  5. QR Code Generation
 
   * Generates a QR code containing the documentation overview and timestamp
   * QR code can be downloaded as a PNG image
 
-    ✰ Save Documentation
+  6. Save Documentation
 
   * Saves generated documentation using browser LocalStorage
 
@@ -42,7 +42,7 @@ The tool detects the programming language, analyzes basic code statistics, gener
 
   * Downloads the generated documentation as `documentation.txt`
 
-    ✰ Voice Output
+  7. Voice Output
 
   * Reads saved documentation aloud using the Web Speech API
 
