@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Generator - Code Documentation Generator</title><link rel="stylesheet" href="style.css"></head><body>
+<nav><a href="index.html">Home</a><a class="on" href="generator.html">Generator</a><a href="voice.html">Voice</a></nav>
+<div class="wrap"><h1>Documentation Generator</h1><p class="sub">Paste code, then generate its documentation.</p>
+<div class="card"><textarea id="code" placeholder="Paste your source code here..." aria-label="Source code"></textarea>
+<div class="msg" id="msg" role="alert"></div>
+<div class="row"><button class="btn" onclick="generateDocumentation()">Generate Documentation</button><button class="btn alt" onclick="clearAll()">Clear</button><button class="btn alt" onclick="saveDocumentation()">Save Documentation</button></div></div>
+<div id="result" class="hidden">
+<div class="card"><h2>Code Explanation</h2><p id="overview"></p><ol class="steps" id="steps"></ol></div>
+<div class="card"><h2>Documentation QR Code</h2><div id="qrcode"></div><p class="msg" id="qrmsg"></p>
+<div class="row"><button class="btn alt" onclick="downloadQR()">Download QR</button><button class="btn" onclick="downloadDocumentation()">Download Documentation</button><a class="btn alt" href="voice.html">Voice Output</a></div></div>
+</div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script></body></html>
